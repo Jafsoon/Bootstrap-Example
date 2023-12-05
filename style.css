@@ -1,17 +1,1 @@
-table {
-  border-collapse: collapse;
-  width: 700px;
-}
-th,
-td {
-  border: 1px solid #cfcdcd;
-  text-align: left;
-  padding: 6px;
-}
-th {
-  background-color: rgb(255, 255, 255);
-}
 
-tr:nth-child(odd) {
-  background-color: rgb(160, 160, 155);
-}
