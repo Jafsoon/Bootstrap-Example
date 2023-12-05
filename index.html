@@ -1,57 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title> Tables practice</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Page</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
-    <table>
-      <thead>
-        <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Amount</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>45</td>
-        </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>45</td>
-        </tr>
-        <tr>
-          <td>Ernst Handel</td>
-          <td>Roland Mendel</td>
-          <td>45</td>
-        </tr>
-        <tr>
-          <td>Island Trading</td>
-          <td>Helen Bennett</td>
-          <td>45</td>
-        </tr>
-        <tr>
-          <td>Laughing Bacchus Winecellars</td>
-          <td>Yoshi Tannamuri</td>
-          <td>45</td>
-        </tr>
-        <tr>
-          <td>Magazzini Alimentari Riuniti</td>
-          <td>Giovanni Rovelli</td>
-          <td>45</td>
-        </tr>
-        <tr>
-          <td colspan="2">Total</td>
-          <td>210</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="container-fluid text-bg-info p-5 d-grid justify-content-center">
+      <h1>Bootstrap Page</h1>
+      <div class="row p-4 d-grid justify-content-center">Create This</div>
+    </div>
+    
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary d-grid justify-content-center"
+    >
+      <div class="container-fluid">
+        <div class="row text-bg-light text-primary">
+          Home &nbsp; &nbsp; &nbsp; &nbsp; About &nbsp; &nbsp; &nbsp; &nbsp;
+          Content
+        </div>
+      </div>
+    </nav>
+
+    <div class="container d-flex justify-content-center">
+      <div class="col-4 m-4">
+        <h4>Column 1</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae possimus
+          officia quidem eligendi omnis consequatur deleniti veritatis fugiat
+          earum! Praesentium eligendi laudantium ea excepturi quam?
+        </p>
+      </div>
+      <div class="col-4 m-4">
+        <h4>Column 2</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae possimus
+          officia quidem eligendi omnis consequatur deleniti veritatis fugiat
+          earum! Praesentium eligendi laudantium ea excepturi quam?
+        </p>
+      </div>
+
+      <div class="col-4 m-4">
+        <h4>Column 3</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae possimus
+          officia quidem eligendi omnis consequatur deleniti veritatis fugiat
+          earum! Praesentium eligendi laudantium ea excepturi quam?
+        </p>
+      </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+      <div class="col-2 btn text-dark text-bg-primary m-5">First Card</div>
+      <div class="col-2 btn text-dark text-bg-warning m-5">Second Card</div>
+      <div class="col-2 btn text-dark text-bg-success m-5 ">Third Card</div>
+      <div class="col-2 btn text-dark text-bg-danger m-5">Fourth Card</div>
+    </div>
+
+    <div
+      class="container-fluid text-bg-info d-grid justify-content-center p-3 position-fixed bottom-0"
+    >
+      Footer!
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
